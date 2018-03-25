@@ -2,8 +2,12 @@
 Real-Time DST and IMF tracking
 
 to run:
+```
 python main.py
+```
 
 To retrain the model:
-python PrepareTrainingData.py
+```
+python prepare_training_data.py
 python model_trainer.py
+```
