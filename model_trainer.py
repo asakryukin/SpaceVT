@@ -1,3 +1,3 @@
-from PredictionModel import PredictionModel
+from src.PredictionModel import PredictionModel
 
 PM = PredictionModel(True)

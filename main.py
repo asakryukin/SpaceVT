@@ -1,5 +1,5 @@
 import matplotlib as mpl
 mpl.use('TkAgg')
-from DST import DST
+from src.DST import DST
 
 DST()
