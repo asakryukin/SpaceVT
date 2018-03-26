@@ -1,4 +1,4 @@
-import sys,os
+import sys, os
 import thread
 import Tkinter as tk
 from matplotlib.backends.backend_agg import FigureCanvasAgg
@@ -6,7 +6,6 @@ import matplotlib.backends.tkagg as tkagg
 
 
 class GUI():
-
     def __init__(self):
         self.active = True
 
@@ -15,10 +14,8 @@ class GUI():
         self.canvas = tk.Canvas(self.window, width=900, height=450)
         self.canvas.pack()
 
-        self.quit_button = tk.Button(self.window, text ="Exit", command = self.closeWindow, width = 15)
-        self.quit_button.place(relx = 0.82, rely = 0.1)
-
-
+        self.quit_button = tk.Button(self.window, text="Exit", command=self.closeWindow, width=15)
+        self.quit_button.place(relx=0.82, rely=0.1)
 
     def draw(self, figure):
         figure_canvas_agg = FigureCanvasAgg(figure)
@@ -35,13 +32,9 @@ class GUI():
         self.window.destroy()
         sys.exit(0)
 
-
-
-
     def is_active(self):
         return self.active
 
     def start_gui(self):
         tk.mainloop()
         self.active = True
-
