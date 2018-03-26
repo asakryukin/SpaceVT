@@ -1,5 +1,5 @@
 # SpaceVT
-Real-Time DST and IMF tracking
+Real-Time DST and IMF tracking, DST prediction
 
 The program was written in Python 2.7.
 
