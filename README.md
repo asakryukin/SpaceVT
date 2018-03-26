@@ -1,6 +1,8 @@
 # SpaceVT
 Real-Time DST and IMF tracking
 
+The program was written in Python 2.7.
+
 to run:
 ```
 python main.py
